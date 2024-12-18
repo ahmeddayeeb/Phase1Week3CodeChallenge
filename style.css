@@ -1,0 +1,108 @@
+body {
+    background-color: #b4bfd3;
+
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    float: left;
+    width: 30%;
+    margin-right: 10%;
+}
+
+li {
+    cursor: pointer;
+    background-color: #040413;
+    color: #22851e;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+li:hover {
+    background-color: #5f7499;
+}
+
+.film-card {
+    display: none;
+    background-color: #b4bfd3;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #1a1a1b
+    margin: 10px;
+    float: right;
+    width: 700px;
+    height: 555px;
+    position: relative;
+}
+
+.active {
+    display: block;
+}
+
+img {
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    height: 540px;
+    width: 450px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #ff068f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right-bottom;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #008b8b;
+}
+
+
+
+.highlight {
+    background-color: #381101;
+    color: #DFF8EB;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.bold-italic-text {
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+    background-color: #1a1a1b;
+}
